@@ -16,22 +16,52 @@ h2 {
 
 .paragrafo {
     line-height: 150%;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
+}
+
+.botoes {
+    display: flex;
+    gap: 40px;
 }
 
 .botao {
     background-color: #ff725e;
     border-radius: 8px;
-    color:#fff;
+    color: #fff;
+    font-size: 15px;
     padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.07);
+    }
 }
 
 .botao-transparente {
     background-color: transparent;
+    border: none;
     color: #ff725e;
+    font-size: 15px;
     padding: 16px 32px;
     text-decoration: underline;
     text-underline-offset: 4px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.botao-transparente:hover {
+    transform: scale(1.1);
 }
 
 .absolute {
@@ -61,7 +91,7 @@ h2 {
 }
 
 #farmacia img {
-    margin: 60px auto;
+    margin: 40px auto;
 }
 
 #farmacia .paragrafo {

@@ -1,3 +1,5 @@
+AOS.init();
+
 const elementosDuvida = document.querySelectorAll('.duvida');
 
 elementosDuvida.forEach(function (duvida) {

@@ -6,8 +6,24 @@ header {
     padding: 24px 80px;
 }
 
-header a {
+.nav-item {
     color: #fff;
     font-weight: 600;
-    padding: 0 32px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav-item::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #ff725e;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-item:hover::after {
+    width: 100%;
 }

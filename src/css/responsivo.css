@@ -1,0 +1,258 @@
+@media (max-width: 1000px) {
+    header {
+        max-width: 100%;
+        padding: 24px 30px;
+    }
+
+    .nav-item {
+        font-size: 15px;
+        padding: 0 12px;
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: space-around;
+        /* flex-direction: column; */
+        padding: 24px 30px 120px 30px;
+    }
+
+    .imagem-principal {
+        width: 400px;
+        height: 400px;
+    }
+
+    #inicio h1, 
+    #inicio .paragrafo {
+        width: 500px;
+    }
+
+    h1,
+    h2 {
+        font-size: 25px;
+    }
+
+    .paragrafo {
+
+        font-size: 15px;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    /* .absolute {
+        display: none;
+    } */
+
+    #clinica {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    #clinica .paragrafo,
+    #clinica li {
+        font-size: 15px;
+    }
+
+    #clinica img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    #farmacia img {
+        margin: 0 auto;
+    }
+    
+    #farmacia .paragrafo {
+        font-size: 15px;
+    }
+
+    #duvidas {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 30px;
+        padding: 64px 70px;
+    }
+
+    #duvidas .imagem-duvida {
+        width: 500px;
+        height: 500px;
+        /* margin: 0 auto; */
+    }
+
+    footer {
+        display: flex;
+        gap: 10px;
+        padding: 60px 75px;
+    }
+
+    footer nav a {
+        margin-bottom: 10px;
+        /* font-size: 15px; */
+    }
+    
+    footer p {
+        /* font-size: 14px; */
+        /* max-width: 300px; */
+        margin-bottom: 10px;
+    }
+
+    #copyright {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 920px) {
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        padding: 24px 30px 120px 30px;
+    }
+
+    .imagem-principal {
+        width: 350px;
+        height: 350px;
+    }
+
+    h1,
+    h2 {
+        font-size: 25px;
+    }
+
+    .paragrafo {
+        font-size: 15px;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .absolute {
+        display: none;
+    }
+
+    #clinica {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #clinica .paragrafo,
+    #clinica li {
+        font-size: 15px;
+    }
+
+    #clinica img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #duvidas .imagem-duvida {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        gap: 90px;
+        padding: 50px 40px;
+    }
+
+    footer nav a {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    #inicio {
+        padding: 24px 40px 120px 40px;
+    }
+
+    .imagem-principal {
+        width: 350px;
+        height: 350px;
+    }
+
+    h1,
+    h2 {
+        font-size: 25px;
+    }
+
+    .paragrafo {
+        font-size: 15px;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .absolute {
+        display: none;
+    }
+
+    #clinica {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #clinica .paragrafo,
+    #clinica li {
+        font-size: 15px;
+    }
+
+    #clinica img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #duvidas {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #duvidas .imagem-duvida {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    footer {
+        display: flex;
+        gap: 90px;
+        padding: 50px 40px;
+    }
+
+    footer nav a {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 14px;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}

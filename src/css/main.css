@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.texto-principal {
+    width: 100%;
+}
+
 h1,
 h2 {
     font-weight: 600;
@@ -15,6 +19,7 @@ h2 {
 }
 
 .paragrafo {
+    max-width: 100%;
     line-height: 150%;
     margin-bottom: 40px;
 }

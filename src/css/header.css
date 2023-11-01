@@ -1,4 +1,5 @@
 header {
+    max-width: 100%;
     background-color: #ff9a6c;
     display: flex;
     justify-content: space-between;

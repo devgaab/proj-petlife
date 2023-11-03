@@ -28,6 +28,11 @@ footer p a {
     color: #263138;
 }
 
+footer a:hover {
+    color: #ff725e;
+    font-weight: 600;
+}
+
 #copyright {
     background-color: #263138;
     color: #FFFFFF;

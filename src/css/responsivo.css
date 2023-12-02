@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     header {
         max-width: 100%;
         padding: 24px 30px;
@@ -21,7 +21,7 @@
         height: 400px;
     }
 
-    #inicio h1, 
+    #inicio h1,
     #inicio .paragrafo {
         width: 500px;
     }
@@ -61,11 +61,11 @@
         width: 400px;
         height: 400px;
     }
-    
+
     #farmacia img {
         margin: 0 auto;
     }
-    
+
     #farmacia .paragrafo {
         font-size: 15px;
     }
@@ -93,7 +93,7 @@
         margin-bottom: 10px;
         /* font-size: 15px; */
     }
-    
+
     footer p {
         /* font-size: 14px; */
         /* max-width: 300px; */
@@ -105,7 +105,7 @@
     }
 }
 
-@media (max-width: 920px) {
+@media screen and (max-width: 920px) {
     #inicio {
         display: flex;
         flex-direction: column;
@@ -174,7 +174,7 @@
         margin-bottom: 10px;
         font-size: 15px;
     }
-    
+
     footer p {
         font-size: 14px;
         max-width: 300px;
@@ -182,7 +182,7 @@
     }
 }
 
-@media (max-width: 530px) {
+@media screen and (max-width: 530px) {
     #inicio {
         padding: 24px 40px 120px 40px;
     }
@@ -249,7 +249,7 @@
         margin-bottom: 10px;
         font-size: 15px;
     }
-    
+
     footer p {
         font-size: 14px;
         max-width: 300px;
